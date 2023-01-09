@@ -15,7 +15,7 @@ entry = Entry()
 entry.insert(END, "0")
 entry.grid(column=1, row=0)
 
-# 4 labels > Miles, Km, and "is equal to", and the result
+# 4 labels > Miles, Km, "is equal to", and the result
 miles = Label(text="Miles")
 miles.grid(column=2, row=0)
 
